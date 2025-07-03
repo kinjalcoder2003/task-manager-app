@@ -105,7 +105,6 @@ import TaskForm from '../components/TaskForm';
 import FilterBar from '../components/FilterBar';
 import TaskList from '../components/TaskList';
 import KanbanBoard from '../components/KanbanBoard';
-
 import SearchBar from '../components/SearchBar';
 
 const Home = () => {
@@ -134,7 +133,7 @@ const Home = () => {
 
           <div className="task-scrollable">
             <div className="filter-stats-row">
-              <FilterBar />
+              {/* <FilterBar /> */}
             </div>
             {/* <KanbanBoard/> */}
             <TaskList />
