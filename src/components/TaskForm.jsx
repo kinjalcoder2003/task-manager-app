@@ -25,11 +25,12 @@ const TaskForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="task-form">
-      <h2>Add New Task</h2>
+      <h2 className='title'>Add New Task</h2>
+      <div className='line'></div>
       
       <input
         type="text"
-        placeholder="Task Title *"
+        placeholder="Task Title "
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         required
