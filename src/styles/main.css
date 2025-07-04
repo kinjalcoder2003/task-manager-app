@@ -394,7 +394,7 @@ body.dark .task-form input[type="date"] {
   color: #f1f1f1;
   border: 1px solid #444;
 }
-body.dark .title{
+body.dark .task-form .title{
   text-align: center;
 text-decoration: underline;
 color: #f1f1f1;
