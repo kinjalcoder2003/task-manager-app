@@ -461,10 +461,11 @@ body.dark .modal button[type="button"]:hover {
     width: 100%;
     position: relative;
     height: auto;
+    margin: 1rem;
   }
 
   .container {
-    padding: 0 1rem;
+    padding: 0 ;
   }
 
   .app-header {
@@ -478,7 +479,7 @@ body.dark .modal button[type="button"]:hover {
     margin-bottom: 5rem;
   }
   .task-form .title {
-    color: #f1f1f1;
+    color: #0F4C75;
   }
   .task-toolbar {
     margin-top: 1rem;
@@ -495,7 +496,7 @@ body.dark .modal button[type="button"]:hover {
 /* Mobile */
 @media (max-width: 576px) {
   .container {
-    padding: 0 0.75rem;
+    padding: 0 ;
   }
 
   .task-card {
@@ -506,6 +507,14 @@ body.dark .modal button[type="button"]:hover {
   .task-actions button {
     padding: 0.4rem 0.75rem;
     font-size: 0.8rem;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin: 1rem;
   }
 
   .app-header {
