@@ -7,7 +7,7 @@ const ViewToggle = () => {
   const viewMode = useSelector((state) => state.task.viewMode);
 
   return (
-    <div style={{ marginBottom: '1rem' }}>
+    <div>
       <button
         onClick={() => dispatch(setViewMode('list'))}
         className={viewMode === 'list' ? 'filter-btn' : 'filter-btn active'}

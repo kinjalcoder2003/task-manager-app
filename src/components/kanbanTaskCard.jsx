@@ -33,7 +33,7 @@ const KanbanTaskCard = ({ task, onEdit }) => {
         isOverdue && task.status !== "Completed" ? "overdue" : ""
       }`}
     >
-        <h3 className="title">{task.title}</h3>
+        <h3 className="Kanbantitle">{task.title}</h3>
         <p className="desc">{task.description}</p>
 
         {task.dueDate && (
