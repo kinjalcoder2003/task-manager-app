@@ -10,13 +10,13 @@ const ViewToggle = () => {
     <div style={{ marginBottom: '1rem' }}>
       <button
         onClick={() => dispatch(setViewMode('list'))}
-        className={viewMode === 'list' ? 'filter-btn active' : 'filter-btn'}
+        className={viewMode === 'list' ? 'filter-btn' : 'filter-btn active'}
       >
         List View
       </button>
       <button
         onClick={() => dispatch(setViewMode('kanban'))}
-        className={viewMode === 'kanban' ? 'filter-btn active' : 'filter-btn'}
+        className={viewMode === 'kanban' ? 'filter-btn' : 'filter-btn active'}
         style={{ marginLeft: '1rem' }}
       >
         Kanban View
