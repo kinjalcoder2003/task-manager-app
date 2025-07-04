@@ -135,8 +135,8 @@ const Home = () => {
             <div className="filter-stats-row">
               {/* <FilterBar /> */}
             </div>
-            {/* <KanbanBoard/> */}
-            <TaskList />
+            <KanbanBoard/>
+            {/* <TaskList /> */}
           </div>
         </div>
       </div>
