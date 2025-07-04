@@ -476,7 +476,6 @@ body.dark .modal button[type="button"]:hover {
 
   .task-form {
     padding: 1rem;
-    margin-bottom: 5rem;
   }
   .task-form .title {
     color: #0F4C75;
@@ -486,7 +485,7 @@ body.dark .modal button[type="button"]:hover {
   }
 
   .search-input {
-    width: 85%;
+    width: 90%;
   }
   .filter-btn{
     flex-wrap: wrap;
@@ -525,14 +524,14 @@ body.dark .modal button[type="button"]:hover {
 
   .task-form {
     padding: 1rem;
-    margin-bottom: 5rem;
+    margin-right: 1rem !important;
   }
   .task-toolbar {
     margin-top: 1rem;
   }
 
   .search-input {
-    width: 85%;
+    width: 80%;
   }
   .filter-btn{
     flex-wrap: wrap;
